@@ -1,0 +1,15 @@
+package com.tui.tuimod.items;
+
+import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
+public final class itemindex {
+    public static Item battleAxe;
+    private static void createItems(){
+    	GameRegistry.registerItem(battleAxe = new baxe("avaxe"), "avaxe");
+    }
+    public void preInit(FMLPreInitializationEvent e) {
+        itemindex.createItems();
+    }
+}

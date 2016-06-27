@@ -1,0 +1,12 @@
+package com.tui.tuimod.items;
+
+import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+
+public final class itemindex {
+    public static Item battleAxe;
+    private static void createItems(){}
+    public void preInit(FMLPreInitializationEvent e) {
+        itemindex.createItems();
+    }
+}

@@ -1,0 +1,24 @@
+package com.tui.tuimod;
+
+import com.tui.tuimod.items.itemindex;
+
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+
+@Mod(modid = tuimain.MODID, version = tuimain.VERSION)
+public class tuimain
+{
+    public static final String MODID = "tui";
+    public static final String VERSION = "0";
+
+    @EventHandler
+    public void preInit(FMLPreInitializationEvent e) {
+        itemindex.createItems();
+    }
+    public void init(FMLInitializationEvent event)
+    {
+
+    }
+}

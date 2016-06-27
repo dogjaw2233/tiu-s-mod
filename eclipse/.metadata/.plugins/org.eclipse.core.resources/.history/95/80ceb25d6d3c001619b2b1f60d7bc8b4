@@ -1,0 +1,12 @@
+package com.tui.tuimod.items;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+public class baxe extends Item {
+	public baxe(String unlocalizedName) {
+	    super();
+
+	    this.setUnlocalizedName(unlocalizedName);
+	    this.setCreativeTab(CreativeTabs.tabMaterials);
+	}
+}
