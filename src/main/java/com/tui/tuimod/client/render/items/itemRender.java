@@ -1,0 +1,14 @@
+//package com.tui.tuimod.client.render.items;
+
+//import com.tui.tuimod.items.itemindex;
+
+//import net.minecraft.client.Minecraft;
+//import net.minecraft.client.resources.model.ModelResourceLocation;
+
+//public final class itemRender {
+
+  //  public static void registerItemRenderer() {
+    //	Minecraft.getMinecraft().getRenderItem().getItemModelMesher()
+      //  .register(itemindex.battleAxe, 0, new ModelResourceLocation("tuimain:battleAxe", "inventory"));
+    //}
+//}

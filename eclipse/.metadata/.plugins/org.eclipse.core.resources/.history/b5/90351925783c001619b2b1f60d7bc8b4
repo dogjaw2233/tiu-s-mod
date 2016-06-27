@@ -1,0 +1,12 @@
+package com.tui.tuimod.client.render.items;
+
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.resources.model.ModelResourceLocation;
+
+public final class itemRender {
+
+    public static void registerItemRenderer() {
+    	Minecraft.getMinecraft().getRenderItem().getItemModelMesher()
+        .register(item, meta, new ModelResourceLocation("modid:itemname", "inventory"));
+    }
+}
